@@ -1,0 +1,65 @@
+$primary: #4fb948;
+$bs-btn-color: #f9f6f6;
+$btn-border-radius: 0;
+$btn-border-radius-sm: 0;
+$btn-border-radius-lg: 0;
+
+$input-border-radius: 0;
+$input-btn-border-width: 2px;
+
+$custom-select-border-radius: 0;
+$dropdown-inner-border-radius: 0;
+$dropdown-border-radius:0;
+$badge-border-radius: 20px;
+
+.text-white {
+  color: white !important;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.fa, .fas, .far{
+  cursor: pointer;
+};
+
+.vscroller {
+  overflow-y: auto;
+};
+
+.trasparent-card {
+  background-color: rgba(255,255,255,0.7);
+  padding: 20px;
+}
+
+select.form-control{
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+}
+
+.fa-lock::before {
+  // content: "\f023";
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.fa-user-circle::before {
+  // content: "\f023";
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.fa-home::before {
+  // content: "\f023";
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.fa-sign-out::before {
+  // content: "\f023";
+  padding-left: 6px;
+  padding-right: 6px;
+}
